@@ -4,11 +4,15 @@
     "next": "^9.3.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "use-wallet": "file:../.."
+    "use-wallet": "file:../..",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
-  }
+    "start": "next start",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
