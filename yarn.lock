@@ -1189,14 +1189,14 @@
   dependencies:
     "@web3-react/types" "^6.0.7"
 
-"@web3-react/authereum-connector@^6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@web3-react/authereum-connector/-/authereum-connector-6.1.1.tgz#b5069209338b3c0496234b543fb987aa4a6ba5dd"
-  integrity sha512-VJgA5NvWJ7IXheXOpte8BsdIc44w9USsxQ62nbeb0PTT250IuRCs0zcbamv5SRvpjRbm4C1eSiNkhkClBZFA/w==
+"@web3-react/authereum-connector@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/authereum-connector/-/authereum-connector-6.2.0.tgz#d3e7379e4d6fc52add4bdd8dfdce1a2747ac23f0"
+  integrity sha512-we4DJwUrGbDd1gJ+cPMEGXq9+fsIEleJkFc+S+NEKyDoHoNGrPX8h4QqKRS3rgi6oCliPbtSPIf7g9DBjDFDTA==
   dependencies:
     "@web3-react/abstract-connector" "^6.0.7"
     "@web3-react/types" "^6.0.7"
-    authereum "^0.0.4-beta.157"
+    authereum "^0.1.14"
 
 "@web3-react/core@^6.1.1":
   version "6.1.1"
@@ -1248,10 +1248,10 @@
     "@web3-react/types" "^6.0.7"
     tiny-invariant "^1.0.6"
 
-"@web3-react/squarelink-connector@^6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@web3-react/squarelink-connector/-/squarelink-connector-6.1.1.tgz#56ff9d4899b22aeb0447edc9ad43d798e8f969ff"
-  integrity sha512-ykrG/6a6uPNwCvI8MJen7abyIWRPvRvzjJfC5XVWNhA+11y+/G6BcWkyuJaIaqm2q0usoe9C7rZ+IIx1x6kQjw==
+"@web3-react/squarelink-connector@^6.1.9":
+  version "6.1.9"
+  resolved "https://registry.yarnpkg.com/@web3-react/squarelink-connector/-/squarelink-connector-6.1.9.tgz#e0d29ff7163a02bb7f92b878f153fd8838311087"
+  integrity sha512-HhhlKmB5twOh2ECPlbx7f/J+wFssU5b04nTj40QuXMNvphMD93nqLplgTgGHzFjeFIzZpnFLN5XbDiJeGApMYA==
   dependencies:
     "@web3-react/abstract-connector" "^6.0.7"
     "@web3-react/types" "^6.0.7"
@@ -1515,17 +1515,17 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-authereum@^0.0.4-beta.157:
-  version "0.0.4-beta.157"
-  resolved "https://registry.yarnpkg.com/authereum/-/authereum-0.0.4-beta.157.tgz#3d4eeaf1206e68744aba0c90c1b7ae19c0e382d6"
-  integrity sha512-mgQkUMjKK/celK7cfTDFecUWHFDKzf6VSaeSxnQ+8Hxu9Mm0vvEFeDkpb9NKrS4KClQSkNA3esZ8dHustNe9iQ==
+authereum@^0.1.14:
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/authereum/-/authereum-0.1.14.tgz#5655e543b296d899136e350d09f9cfe4c12fbc38"
+  integrity sha512-o1lsXXGg+oYDAEutZ8Ak1Qn2Dnk+qSyQ2ZokyLHRSYGJj6HpEHaSlQA6W3VTHD5r68Q+W0JD/BN9hDSF2xyshQ==
   dependencies:
     async "3.2.0"
+    bn.js "5.1.2"
     ethereum-private-key-to-address "0.0.3"
     ethers "4.0.47"
     eventemitter3 "4.0.0"
     is-buffer "2.0.4"
-    moment "2.24.0"
     penpal "4.1.1"
     pify "4.0.1"
     querystring "0.2.0"
@@ -2175,6 +2175,11 @@ bn.js@4.11.8, bn.js@^4.11.0, bn.js@^4.11.1, bn.js@^4.11.6, bn.js@^4.11.8, bn.js@
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
   integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+
+bn.js@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-5.1.2.tgz#c9686902d3c9a27729f43ab10f9d79c2004da7b0"
+  integrity sha512-40rZaf3bUNKTVYu9sIeeEGOg7g14Yvnj9kH7b50EiwX0Q7A6umbvfI5tvHaOERH0XigqKkfLkFQxzb4e6CIXnA==
 
 bn.js@^5.1.1:
   version "5.1.1"
@@ -5017,11 +5022,6 @@ mkdirp@^0.5.1:
   integrity sha512-iG9AK/dJLtJ0XNgTuDbSyNS3zECqDlAhnQW4CsNxBG3LQJBbHmRX1egw39DmtOdCAqY+dKXV+sgPgilNWUKMVw==
   dependencies:
     minimist "^1.2.5"
-
-moment@2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 ms@2.0.0:
   version "2.0.0"
